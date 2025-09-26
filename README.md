@@ -23,4 +23,4 @@ Exemplo de gráfico gerado:
 Clone o repositório e rode no Google Colab ou Jupyter Notebook:
 
 ```bash
-git clone https://github.com/seu-usuario/simulacao-foguete-rk4.git
+git clone https://github.com/seu-usuario/simulacao-foguete-rk4.git 

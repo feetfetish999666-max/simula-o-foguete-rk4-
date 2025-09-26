@@ -11,7 +11,7 @@ Os resultados são salvos em `.csv` e visualizados em gráficos com Matplotlib.
 ## 📊 Resultados
 Exemplo de gráfico gerado:
 
-![Gráfico da simulação](grafico.png)
+
 
 ## 📂 Estrutura do Repositório
 - `simulacao_foguete.ipynb` → Notebook com o código da simulação  

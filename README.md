@@ -1,40 +1,17 @@
-# simulacao-foguete-rk4
-# 🚀 Simulação de Foguete Multi-Estágio (RK4)
-
-Este projeto simula o voo de um foguete usando:
-- **Modelo multi-estágio**
-- **Integração numérica Runge-Kutta de 4ª ordem (RK4)**
-- **Modelo exponencial para densidade do ar**
-- **Força de arrasto aerodinâmico**
-
-Os resultados são salvos em `.csv` e visualizados em gráficos com Matplotlib.
-
 ## 📊 Resultados
-Exemplo de gráfico gerado:
 
-# 🚀 Simulação de Foguete Multi-Estágio (RK4)
+### Altitude ao longo do tempo
+![Altitude](docs/altitude_example.png)
 
-Este projeto simula o voo de um foguete usando:
-- **Modelo multi-estágio**
-- **Integração numérica Runge-Kutta de 4ª ordem (RK4)**
-- **Modelo exponencial para densidade do ar**
-- **Força de arrasto aerodinâmico**
+### Velocidade ao longo do tempo
+![Velocidade](docs/velocity_example.png)
+import matplotlib.pyplot as plt
 
-Os resultados são salvos em `.csv` e visualizados em gráficos com Matplotlib.
+t = [0, 1, 2, 3]
+h = [0, 10, 18, 25]
 
-## 📊 Resultados
-Exemplo de gráfico gerado:
-
-![Gráfico da simulação](grafico.png)
-
-## 📂 Estrutura do Repositório
-- `simulacao_foguete.ipynb` → Notebook com o código da simulação  
-- `simulacao_foguete.csv` → Dados exportados da simulação  
-- `grafico.png` → Gráfico de altitude e velocidade  
-- `README.md` → Este arquivo de documentação  
-
-## ⚙️ Como Executar
-Clone o repositório e rode no Google Colab ou Jupyter Notebook:
-
-```bash
-git clone https://github.com/seu-usuario/simulacao-foguete-rk4.git
+plt.plot(t, h)          # plota os pontos (t, h)
+plt.xlabel("Tempo (s)") # nome do eixo X
+plt.ylabel("Altura (m)")# nome do eixo Y
+plt.title("Altura do foguete ao longo do tempo")
+plt.show()

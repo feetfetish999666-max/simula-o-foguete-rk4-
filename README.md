@@ -13,9 +13,7 @@ Os resultados são salvos em arquivos `.csv` e visualizados em gráficos com Mat
 ## 📊 Resultados
 Exemplo de gráfico gerado:
 
-![Gráfico da simulação](grafico.png)
 
----
 
 ## 📂 Estrutura do Repositório
 - `simulacao_foguete.ipynb` → Notebook com o código da simulação  

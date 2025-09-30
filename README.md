@@ -13,7 +13,8 @@ Os resultados são salvos em arquivos `.csv` e visualizados em gráficos com Mat
 ## 📊 Resultados
 Exemplo de gráfico gerado:
 
-![Gráfico da simulação](grafico.png)
+![Gráfico da simulação](<img width="741" height="471" alt="image" src="https://github.com/user-attachments/assets/d0cee8ae-c051-4f20-8ad6-de5455c99341" />
+.png)
 
 ---
 

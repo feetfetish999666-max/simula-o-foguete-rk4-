@@ -11,7 +11,6 @@ Os resultados são salvos em arquivos `.csv` e visualizados em gráficos com Mat
 ---
 
 ## 📊 Resultados
-Exemplo de gráfico gerado:
 
 
 
